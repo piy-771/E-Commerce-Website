@@ -1,0 +1,62 @@
+
+.countdown-container {
+    background-color: #641313; /*Dark red background*/
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .countdown-header h2 {
+    /* margin: 0; */
+    font-size: 36px;
+  }
+  
+  .countdown-header p {
+    font-size: 14px;
+    /* margin: 5px 0 20px; */
+  }
+  
+  .countdown-timer {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  .countdown-timer div {
+    margin: 0 5px;
+  }
+  
+  .countdown-timer span {
+    display: block;
+    font-size: 32px;
+  }
+  
+  .countdown-timer p {
+    /* margin: 0; */
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .shop-button {
+    /* margin-top: 20px; */
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .shop-button:hover {
+    background: white;
+    color: #641313;
+  }
+  

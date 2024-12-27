@@ -1,0 +1,32 @@
+{
+    "products":[
+        
+        {
+            "name":"Oversize Bomber",
+            "price": 2300,
+            "description": "this is very good t shirt for men",
+            "category": "women",
+            "image": "https://fashion.minimog.co/cdn/shop/files/women-bomber-min.jpg?v=1709281981&width=1600",
+            "type": "new"
+        },
+        {
+            "name":"Straight Jeans",
+            "price": 2300,
+            "description": "this is very good t shirt for men",
+            "category": "women",
+            "image": "https://fashion.minimog.co/cdn/shop/files/image-card-3.webp?v=1708584187&width=2000",
+            "type": "new"
+        }
+    ],
+
+    "products1":[
+        {
+            "name":"Oversize Bomber Jacket",
+            "price": 79.00,
+            "description": "this is very good t shirt for men",
+            "category": "women",
+            "image": "https://fashion.minimog.co/cdn/shop/files/women-bomber-min.jpg?v=1709281981&width=1600",
+            "type": "new"
+        }
+    ]
+}

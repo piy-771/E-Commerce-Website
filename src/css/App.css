@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../fonts/BODY-GROTESQUE-BOLD-TRIAL.TTF') format('truetype');
+}
+
+body {
+    font-family: 'MyCustomFont';
+    
+}
