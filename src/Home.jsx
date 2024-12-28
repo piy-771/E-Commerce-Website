@@ -3,15 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Hero from './components/Hero.jsx'
 import './css/Home.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-
-import userwhite from './images/userwhite.png'
-import favoritewhite from './images/favoritewhite.png'
-import cartwhite from './images/cartwhite.png'
-import logowhite from './images/logo-white.avif'
-
-import { Link } from 'react-router-dom';
 
 
 import vid2 from './videos/video2.mp4';
@@ -60,8 +51,6 @@ const Home=()=>{
     const ans= product.map((key)=>{
         return(
             <>
-
-
 <Card className="text-white"  style={{width:"453px",height:"300px"}} >
       <Card.Img src={key.image} alt="Card image"/>
       <Card.ImgOverlay>

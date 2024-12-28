@@ -3,72 +3,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .hero{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
 }
-.hero-main{
-    position:absolute;
-}
-.overlay{
+
+
+
+
+.bg-video {
     position: absolute;
-    height: 100vh;
-    width: 100vw;
-    background-color:  rgba(rgb(55, 53, 53), green, blue, alpha) ;
-}
-/* video{
-    position:absolute;
-    top:0;
-    left : 0;
-} 
-.hero{
-    height:100vh;
-}
-.hero video::before{
-    content: "";
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .overlay{
+    top: 0;
+    width: 100%;
+height: 100%;
+object-fit: cover;
     position: absolute;
-     top:0; 
-    left : 0;
-    width : 100%;
-    height: 100vh;
-    background: rgba(226, 25, 25, 0.2)  center center/cover;
-   
+    background: black;
+    opacity: 0.3;
+  }
+  .hero-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
+    text-align: center;
+    color: white;
 
-}
-.hero .hero-main{
-z-index :100;
-position:absolute;
-align-items:center;
- color:white;
- top:0;
- left:0;
- right:0;
- bottom:0;
- line-height:3;
- justify-content:center;
-
-        display:flex;
-        flex-direction:column;
-        
-} */
-
-
-
-@media screen and  (max-width:768px) {
-    .hero .hero-main{
-
-     
-     display: inline;
-     justify-self: center;
-     text-align: center;
-     padding-top: 50px;
-     
+    h1{
+        font-size: 60px;
+        font-weight: 100px;
     }
-    
+  }
+  @media (max-width: 768px) {
+    .hero-main h1 {
+      font-size: 45px;
+    }
 }
